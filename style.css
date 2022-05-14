@@ -9,7 +9,6 @@ article{
     background-image:url("hands.jpg");
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size:cover;
 
 }
@@ -24,7 +23,6 @@ body.portfolio{
     background-image:url("webbg.jpg");
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size:cover;
 }
 
