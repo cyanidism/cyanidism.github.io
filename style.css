@@ -4,34 +4,75 @@ header{
     
 }
 
-
-body{
-    margin:0;
-    background-image:url("webbg.jpg");
-    
+article{
+    margin:0px;
+    background-image:url("hands.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+
 }
 
+body{
+    margin:0px;
+    background-color:black;
+    background-size:cover;
+}
+body.portfolio{
+    margin:0px;
+    background-image:url("webbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 
 h1{
-    font-size: 45px;
+    font-size: 35px;
     font-weight:100;
     font-family: Garamond;
-    
+    color: white;
     display:inline;
     text-align: left;
-    margin:8px;
+    margin:20px;
 }
 
+h2{
+    font-size: 35px;
+    font-weight:170;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    display:inline;
+    text-align: left;
+    margin:50px;
+}
+
+h3{
+  
+    font-size:24px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:white;
+}
+h4{
+    font-size:45px;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    text-align: center;
+    display:block;
+}
 p{
+    margin:50px;
     font-size:24px;
     font-family: Garamond;
     color:white;
-    text-align: center;
+    text-align: left;
+    text-indent: 5%;
     display:block;
+  
 }
 .links{
     color:white;
