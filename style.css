@@ -24,6 +24,7 @@ body.portfolio{
     background-attachment: fixed;
     background-position: center;
     background-size:cover;
+    align-items:center;
 }
 
 h1{
@@ -41,19 +42,27 @@ h2{
     font-weight:170;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    display:inline;
     text-align: left;
     margin:50px;
 }
 
 h3{
-  
     font-size:24px;
     font-weight: 100;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    color:white;
+    color:#ffffff;
 }
+
+h3.yr{
+    display:inline-flex;
+    padding-left: 12%;
+    text-align: center;
+    padding-top:0.2%;
+    padding-bottom:0.2%;
+
+}
+
 h4{
     font-size:45px;
     font-weight: 200;
@@ -62,6 +71,7 @@ h4{
     text-align: center;
     display:block;
 }
+
 p{
     margin:50px;
     font-size:24px;
@@ -84,10 +94,10 @@ a{
 }
 
 img{
-    
-    width:400px;
+    width:420px;
     margin:auto;
     display:block;
+    align-items: center;
     transition-duration: 0.2s;
 }
 img.p:hover{
