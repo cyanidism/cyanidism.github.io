@@ -93,8 +93,8 @@ a{
     text-decoration:none;
 }
 
-img{
-    width:420px;
+img.p{
+    width:400px;
     margin:auto;
     display:block;
     align-items: center;
